@@ -89,7 +89,7 @@ app.get("/callback", (req, res) => {
           console.log(results[0]);
         })
         .catch((err) => {      
-          res.status(err.status).send("Failed");
+          // res.status(err.status).send("Failed");
         });
     })
     .catch((err) => {
